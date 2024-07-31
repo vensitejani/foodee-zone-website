@@ -1,0 +1,33 @@
+
+.container{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: aquamarine;
+    border-radius: 7px;
+    border: 2px solid black;
+   
+}
+body{
+    background-image: url("login\ page.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    margin-top: 20px;
+    background-color:aqua;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+}
+button:hover{
+    background-color: rgb(250, 8, 8);
+    color: black;
+    font-weight: bold;
+}

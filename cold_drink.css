@@ -1,0 +1,56 @@
+*{
+    padding: 3px;
+    margin: 2px;
+}
+
+img{
+
+    height: 150px;
+    width: 150px;
+    box-shadow: 3px 3px 5px gray;
+}
+img:hover{
+    height: 153;
+    width: 153;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 8px rgb(33, 139, 215);
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    background-color: blue;
+    color: white;
+}
+.btn:hover{
+    height: 35px;
+    width: 85px;
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+}
+.prise{
+    width: 80px;
+    text-align: center;
+}
+.prise:hover{
+    width: 85;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("login2.avif");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    padding: 0px;
+}
+th:hover{
+    text-decoration: underline;
+}
